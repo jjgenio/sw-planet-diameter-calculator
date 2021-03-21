@@ -1,0 +1,15 @@
+.idea
+coverage
+bower_components
+node_modules
+assets
+dist
+build
+libs
+*.json
+*.md
+*.log
+*.iml
+*.lock
+.history
+karma.conf.js
