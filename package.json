@@ -1,0 +1,29 @@
+{
+  "name": "sw-planet-diameter-calculator",
+  "version": "0.0.1",
+  "description": "CLI application to retrieve the total diameter of planets with water surface and mountains for a specific Star Wars movie",
+  "main": "sw-planet-diameter-calculator",
+  "team": "jjgenio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjgenio/sw-planet-diameter-calculator.git"
+  },
+  "keywords": [
+    "star wars",
+    "qualifio"
+  ],
+  "homepage": "https://github.com/jjgenio/sw-planet-diameter-calculator.git",
+  "bugs": {
+    "url": "https://github.com/jjgenio/sw-planet-diameter-calculator.git/issues"
+  },
+  "author": "Joao Genio <jgenio2@gmail.com>",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
