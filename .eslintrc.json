@@ -1,0 +1,22 @@
+{
+  "extends": ["eslint-config-prettier", "prettier", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "class-methods-use-this": "off",
+    "no-bitwise": ["error", { "int32Hint": true }],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules"]
+      }
+    }
+  },
+  "env": {
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  }
+}
